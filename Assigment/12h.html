@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0; /* Remove default body margin */
+        }
+        .space {
+            background-color: rgb(156, 95, 207);
+            color: white;
+            font-family: arial;
+            font-size: small;
+            border: 2px solid grey;
+            width: 650px; /* Fixed width of .space div */
+            padding: 2px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 1.5);
+            display: flex; /* Use Flexbox for layout */
+            justify-content: space-between; /* Move items to both ends (left and right) */
+            align-items: center; /* Vertically center items */
+        }
+        .button {
+            background-color: rgb(156, 95, 207);
+            color: white;
+            padding: 5px;
+            border-color: white;
+            margin-right: 4px;
+        }
+        input{
+            border-color: white;
+            border-radius: 25px;
+            width: 400px;
+            padding: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 1.5);
+            margin-right: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="space">
+        <h2>Home <span class="Home"> </span></h2>
+        <div class="spacer"></div> <!-- Add an empty div for spacing -->
+        <input type="text" name=" Search" placeholder=" Search ">
+        <button class="button">Download</button>
+    </div>
+</body>
+</html>

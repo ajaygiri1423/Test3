@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="follow">
+        <img src="https://static.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg">
+        <div class="text-container">
+            <span class="p"><strong>Oliver</strong></span>
+            <span class="p2">The cat</span>
+            <span class="p3">Popular</span>
+        </div>
+        <button class="button1">Follow</button>
+    </div>
+    <div class="follow">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.GeAA0FO3BwC_e47_zDJbsgHaEo&pid=Api&P=0&h=180">
+        <div class="text-container">
+            <span class="p"><strong>Boby</strong></span>
+            <span class="p2">The dog</span>
+            <span class="p3">Popular</span>
+        </div>
+        <button class="button2">Follow</button>
+    </div>
+    <div class="follow">
+        <img src="http://2.bp.blogspot.com/-AJgId_QbKZ8/Tyw5F0QKKcI/AAAAAAAAAzs/NOrAEdVkXvE/s1600/1-Cute+Dog+1600x1200.jpg">
+        <div class="text-container">
+            <span class="p"><strong>OGGY</strong></span>
+            <span class="p2">The dog</span>
+            <span class="p3">Popular</span>
+        </div>
+        <button class="button">Follow</button>
+    </div>
+</body>
+<style>
+    img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%; 
+        vertical-align: middle;
+    }
+
+    input {
+        border-color: transparent;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        border-radius: 5px;
+        border-color: rgb(10, 102, 194);
+        box-shadow: 0 0 0 0.5 rgba(0, 0, 0, 1.5);
+        vertical-align: middle;
+        margin-left: 10px;
+        padding: 5px 15px; /* Add padding to style the button */
+    }
+    .button2{ background-color: rgb(10, 102, 194);
+        color: white;
+        border-radius: 5px;
+        border-color: rgb(10, 102, 194);
+        box-shadow: 0 0 0 0.5 rgba(0, 0, 0, 1.5);
+        vertical-align: middle;
+        margin-left: 25px;
+        padding: 5px 15px;
+
+    }
+    .button1{background-color: rgb(10, 102, 194);
+        color: white;
+        border-radius: 5px;
+        border-color: rgb(10, 102, 194);
+        box-shadow: 0 0 0 0.5 rgba(0, 0, 0, 1.5);
+        vertical-align: middle;
+        margin-left: 15px;
+        padding: 5px 15px;
+    }
+    button:active {
+        background-color: grey;
+        color: white;
+        border-color: grey;
+    }
+
+    .p {
+        font-weight: bold;
+        font-size: larger;
+        vertical-align: middle;
+        margin-right: 5px; /* Reduce margin */
+    }
+
+    .p2,
+    .p3 {
+        font-size: smaller;
+        color: grey;
+        margin-top: 2px; /* Reduce margin */
+        margin-bottom: 5px;
+    }
+
+    .follow {
+        display: flex;
+        /* Use flexbox to align elements in a row */
+        align-items: center;
+        /* Vertically align elements in the middle */
+    }
+
+    .text-container {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Adjust alignment */
+    }
+</style>
+</html>
